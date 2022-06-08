@@ -4,6 +4,7 @@ import TypeOneComponent from 'components/home-components/timeline-components/Typ
 import TypeTwoComponent from 'components/home-components/timeline-components/TypeTwoComponent'
 import data from 'components/home-components/timeline-components/TimelineComponentsData'
 import image1 from 'components/home-components/timeline-components/missionandvision-illustration.png'
+import image2 from 'components/home-components/timeline-components/online-ide-gif.gif'
 import image3 from 'components/home-components/timeline-components/practice-illustration.png'
 
 const timelineNavItems = [
@@ -33,7 +34,7 @@ export const TimelineSection = () => {
                     heading={data[1].heading} 
                     description={data[1].description} 
                     link_title={data[1].link_title} 
-                    image={image1}
+                    image={image2}
                 />
                 <TypeOneComponent 
                     heading={data[2].heading} 
